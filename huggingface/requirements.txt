@@ -1,0 +1,16 @@
+# Core Hugging Face stack
+transformers>=5.0       # models, tokenizers, pipelines, Trainer
+datasets>=4.0           # loading / processing datasets
+accelerate>=1.0         # device placement, mixed precision, multi-GPU (used by Trainer)
+peft>=0.13              # LoRA / parameter-efficient fine-tuning
+evaluate>=0.4           # metrics (accuracy, f1, ...)
+huggingface_hub>=1.0    # login, upload, download, Hub API
+sentence-transformers>=3.0  # embeddings & semantic search
+
+# Deep learning backend (install the CUDA build from pytorch.org if you have a GPU)
+torch>=2.3
+
+# Optional
+scikit-learn            # needed by some evaluate metrics (f1, precision, ...)
+gradio>=5.0             # quick web UI for demos (09_gradio_app.py)
+# bitsandbytes          # 4/8-bit quantization (QLoRA) — NVIDIA GPU only
