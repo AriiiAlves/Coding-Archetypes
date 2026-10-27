@@ -20,6 +20,8 @@ Each archetype is a folder that:
 | Folder | Technology | Covers |
 |--------|------------|--------|
 | [`huggingface/`](huggingface/) | Hugging Face (Transformers, Datasets, PEFT, Hub, Gradio) | Running open models, tokenization and generation, datasets, full fine-tuning, LoRA/QLoRA, embeddings and semantic search, custom model architectures, publishing to the Hub, demo UIs |
+| [`pytorch/`](pytorch/) | PyTorch (torch, torchvision) | Tensors and autograd, datasets and dataloaders, building models with `nn.Module`, a reusable training loop with checkpointing, CNNs, transfer learning, a transformer from scratch, mixed precision and `torch.compile`, export to `torch.export` / ONNX, multi-GPU training with DDP |
+| [`react/`](react/) | React 19 + TypeScript (Vite, React Router, Vitest) | Components and props, state and events, effects and refs, forms and actions, data fetching with Suspense, context and reducers, custom hooks, performance, routing with loaders, testing with Testing Library |
 
 ## How to use
 

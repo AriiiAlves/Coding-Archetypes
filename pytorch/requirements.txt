@@ -1,0 +1,10 @@
+# Core (install the CUDA / ROCm build of torch from https://pytorch.org/get-started if you have a GPU)
+torch>=2.9
+torchvision>=0.24       # datasets, transforms and pretrained models for images
+numpy
+
+# Optional
+onnx                    # ONNX export (09_save_export.py)
+onnxscript              # needed by torch.onnx.export
+# onnxruntime           # run exported ONNX models
+# tensorboard           # torch.utils.tensorboard.SummaryWriter for training curves
